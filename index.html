@@ -3,6 +3,21 @@
 
 
     <head>
+        <!-- Builderall Global Script -->
+<script>
+    (function(b, u, i, l, d, e, r) {
+        const config = {
+            bgskey: "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1dWlkIjoiNDA2NmZhZmYtOTk4OC00MDY2LTk3YzUtYzljNGYzZTNlOWFkIn0.Sy2wyQXdfH63qv1qnG71y33VD9szR0V0nvZ6WBOx6G8",
+            url: encodeURI(u.href)
+        }
+        d = b.createElement(i);
+        e = new URLSearchParams(config).toString()
+        d.src = `${l}/main.js?${e}`;
+        d.defer = !0;
+        b.head.appendChild(d);
+    })(document, location, 'script', 'https://bgs.builderall.com')
+    </script>
+    
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
